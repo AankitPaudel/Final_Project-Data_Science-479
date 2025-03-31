@@ -48,7 +48,7 @@ Comprehensive guides detail each dataset column and data relationships, serving 
 
 ## How to Use This Repository
 1. Clone the repository using:
-https://github.com/AankitPaudel/Final_Project-Data_Science-479/blob/main/README.md
+https://github.com/AankitPaudel/Final_Project-Data_Science-479
 2. Install required dependencies listed in `requirements.txt`.
 3. Explore the `data/` directory to view the dataset.
 4. Execute scripts within the `scripts/` directory to replicate the analysis.
