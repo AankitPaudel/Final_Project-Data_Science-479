@@ -1,7 +1,7 @@
 # Final Project - Data Science 479
 
 ## Project Overview
-This project aims to predict loan defaults using a dataset sourced from Kaggle. By analyzing data on over 255,000 borrowers, including age, income, credit scores, and loan details, we aim to identify customers likely to default on loan repayments. This insight will enable banks to mitigate risks and offer proactive assistance to customers during the loan approval process.
+This project aims to predict loan defaults using a dataset sourced from Kaggle. By analyzing data on over borrowers, including age, income, credit scores, and loan details, we aim to identify customers likely to default on loan repayments. This insight will enable banks to mitigate risks and offer proactive assistance to customers during the loan approval process.
 
 ## Dataset Description
 The dataset includes several key variables that can predict potential loan defaults:
