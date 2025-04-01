@@ -1,61 +1,71 @@
-# Final Project - Data Science 479: Loan Default Prediction
+# Loan Default Prediction Project
 
-## Project Overview
-This project focuses on predicting the likelihood of loan defaults using data sourced from the Coursera Loan Default Prediction Challenge. By leveraging a dataset of 255,347 borrower records, our analysis aims to assist financial institutions in assessing borrower risks more effectively and making informed decisions.
+## Overview
+This project aims to predict the likelihood of loan defaults using data from Coursera's Loan Default Prediction Challenge. By analyzing comprehensive borrower data, we support financial institutions in making informed decisions on loan approvals and risk management.
 
-## Team Members
-- Ankit Paudel
-- Bibek Sharma
-- Kushal Khadka
-- Shreeya Pradhan
-- Sohan Lama
-- Sumit Shahi
+## Project Goal
+To utilize predictive analytics to forecast loan defaults, aiding financial institutions in assessing borrower risks and enhancing the decision-making process for loan approvals.
 
-## Dataset Description
-**Dataset Name**: Loan Default Prediction Dataset
+## Dataset Overview
+- **Name**: Loan Default Prediction Dataset
+- **Source**: Coursera’s Loan Default Prediction Challenge
+- **Size**: 255,347 rows × 18 columns
+- **Format**: CSV (`Loan_default.csv`)
+- **Data Types**:
+  - **Numerical**: Age, Income, CreditScore, etc.
+  - **Boolean**: HasMortgage, HasCoSigner, Default
+  - **Categorical/Text**: Education, EmploymentType, LoanPurpose
 
-**Size**: 255,347 rows × 18 columns
+## Data Management Strategies
 
-**Format**: CSV (Loan_default.csv)
+### 1. Creation of Logical Collections
+The dataset is segmented into logical categories such as demographics, financial data, credit history, and loan details to facilitate targeted analysis and effective model training.
 
-**Key Variables**:
-- Numerical: Age, Income, Credit Score
-- Boolean: Has Mortgage, Has CoSigner, Default
-- Categorical/text: Education, Employment Type, Loan Purpose
+### 2. Physical Data Handling
+We utilize version control through GitHub and ensure data integrity with regular replication across team environments. The dataset is stored in CSV format, accessible within our secure GitHub repository.
 
-## Data Management
-- **Data Sourcing**: Dataset obtained from Kaggle's Loan Default Prediction Challenge.
-- **Data Cleaning**: Includes handling of missing values and outliers. Ensuring the reliability of data metrics like debt ratios and credit scores.
-- **Data Storage**: Utilizing CSV for analysis and SQL databases for enhanced querying capabilities.
-- **Security and Privacy**: Access restricted to team members with encryption in place to protect sensitive data.
-- **Backup and Version Control**: Data is backed up daily to cloud storage (OneDrive/Google Drive) with version control managed through GitHub.
+### 3. Interoperability Support
+Our analysis integrates the dataset with additional data sources, such as credit bureau data, to enhance predictive accuracy. Compatibility with statistical software like Python (Pandas, Matplotlib) and R is maintained.
 
-## Repository Contents
-- `data/`: Raw and processed data files in CSV and Excel formats.
+### 4. Metadata and Standards
+- **Metadata**: The dataset includes structured JSON metadata detailing column types and meanings.
+- **Standards**: Adheres to standards from Schema.org and MLCommons Croissant for machine-readable schema integration.
+
+### 5. Security Support
+Data access is restricted to authorized team members only. GitHub's privacy settings are used to secure borrower information, ensuring that only pertinent team members have access to sensitive data.
+
+### 6. Data Ownership
+The original dataset is owned and maintained by Nikhil Kotra and hosted on Kaggle. Our project ensures rigorous data quality and cleaning under the supervision of the project leader.
+
+### 7. Metadata Collection, Management, and Access
+The dataset's metadata includes comprehensive column descriptions, data origins, and a detailed change history. We also plan to implement relational maps to show how different data pieces interconnect.
+
+### 8. Persistence
+The dataset will be retained indefinitely for ongoing historical analysis and comparative studies, with plans in place for data migration as technologies evolve.
+
+### 9. Discovery, Dissemination, and Publication
+- **Discovery**: We maintain clear GitHub documentation, including transparent README files that facilitate efficient discovery and understanding of specific borrower attributes.
+- **Dissemination and Publication**: Updates on changes are regularly communicated through GitHub. We ensure sensitive data is protected while maintaining transparency with data updates to foster collaboration and analysis replication.
+
+## Repository Structure
+- `data/`: Directory containing the raw and processed CSV files.
 - `scripts/`: Scripts for data cleaning, preprocessing, and modeling.
-- `docs/`: Documentation and findings from the project.
-- `backup/`: Backup copies of datasets.
+- `docs/`: Documentation related to data management and findings.
+- `backup/`: Backup copies of the dataset.
 
-## Usage
-1. **Clone the Repository**: 
+## Getting Started
+To get involved with this project:
+1. Clone the repository:
 git clone https://github.com/AankitPaudel/Final_Project-Data_Science-479
-2. **Install Dependencies**:
-3. **Run Analysis**:
-Navigate to the `scripts/` directory and execute the analysis scripts.
+2. Install necessary dependencies:
+3. Navigate to the `data/` and `scripts/` directories to begin exploring and executing the analysis.
 
-## Contributing
-This project does not accept external contributions. Only designated team members have the authority to make changes.
+## Contributions
+This project is currently closed to external contributions and is managed by the listed team members. For access or inquiries, please contact the repository administrators.
 
 ## License
-This project is released under the MIT License - for more details, see the LICENSE file in the repository.
+This project is licensed under the MIT License - details are available in the LICENSE file.
 
-## Additional Resources
-For further resources, presentations, and shared files related to the project, team members and authorized collaborators can access our OneDrive folder. Ensure you have the required permissions to access these files.
+## Reference
+- [Loan Default Prediction Dataset by Nikhil](https://www.kaggle.com/datasets/nikhil1e9/loan-default/data) on Kaggle.
 
-**Access Project Files on OneDrive**: [OneDrive Link](https://vandalsuidaho-my.sharepoint.com/:f:/g/personal/sshahi_uidaho_edu/EoZqekJVIzlPg8fURb86ekQBn1kmEFsn7B4GPgBhdjh3-A?e=tPr83K)
-
-### Note
-Please replace the placeholder above with the actual link to the OneDrive folder.
-
-## References
-- Nikhil (2023, September 11). Loan Default Prediction Dataset. Retrieved from [Kaggle](https://www.kaggle.com/datasets/nikhil1e9/loan-default/data)
