@@ -1,10 +1,11 @@
 # Final Project - Data Science 479
 
 ## Project Overview
-This project aims to predict loan defaults using a dataset sourced from Kaggle. By analyzing data on over borrowers, including age, income, credit scores, and loan details, we aim to identify customers likely to default on loan repayments. This insight will enable banks to mitigate risks and offer proactive assistance to customers during the loan approval process.
+This project aims to predict loan defaults using a dataset sourced from Kaggle. By analyzing data on borrowers, including age, income, credit scores, and loan details, we aim to identify customers likely to default on loan repayments. This insight will enable banks to mitigate risks and offer proactive assistance to customers during the loan approval process.
 
 ## Dataset Description
-The dataset includes several key variables that can predict potential loan defaults:
+The dataset includes key variables that can predict potential loan defaults:
+
 - **Age**: Age of the borrower.
 - **Income**: Monthly or annual income of the borrower.
 - **Credit Scores**: Credit scores assigned by financial institutions.
@@ -17,9 +18,9 @@ The dataset includes several key variables that can predict potential loan defau
 - `backup/`: Backup copies of the dataset stored in the cloud.
 
 ## Data Management
-Detailed below are the strategies employed for managing the dataset throughout this project:
+Detailed strategies employed for managing the dataset throughout this project:
 
-### Data Collection Need
+### Data Collection
 The data is utilized to spot customers who might be at risk of not fulfilling loan repayment terms.
 
 ### Data Sourcing
@@ -47,21 +48,20 @@ Access to the dataset is managed based on individual roles and requirements, wit
 Comprehensive guides detail each dataset column and data relationships, serving as a resource for understanding and analyzing the dataset.
 
 ## How to Use This Repository
-1. Clone the repository using:
-https://github.com/AankitPaudel/Final_Project-Data_Science-479
-2. Install required dependencies listed in `requirements.txt`.
-3. Explore the `data/` directory to view the dataset.
-4. Execute scripts within the `scripts/` directory to replicate the analysis.
+- Clone the repository: `https://github.com/AankitPaudel/Final_Project-Data_Science-479`
+- Install required dependencies listed in `requirements.txt`.
+- Explore the `data/` directory to view the dataset.
+- Execute scripts within the `scripts/` directory to replicate the analysis.
 
 ## Contributing
 This project is closed for external contributions. Only specific team members, who are collaborators in this repository, have the permission to make changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Additional Resources and Presentations
 For access to additional project resources, presentations, and shared files, please visit our OneDrive folder:
 
-[Access Project Files on OneDrive](https://vandalsuidaho-my.sharepoint.com/:f:/g/personal/sshahi_uidaho_edu/EoZqekJVIzlPg8fURb86ekQBn1kmEFsn7B4GPgBhdjh3-A?e=tPr83K)
+[Access Project Files on OneDrive](#)
 
 This link is intended for use by project team members and other authorized collaborators. Please ensure you have the necessary permissions to access these files.
